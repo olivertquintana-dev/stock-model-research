@@ -1,0 +1,189 @@
+{
+  "model": "V1.0 RS63 Technical Selector",
+  "as_of_date": "2026-08-28",
+  "universe_size": 1092,
+  "selected_count": 110,
+  "selection_rule": "Top 10% by 63-session return percentile; monthly research rebalance; target horizon 126 sessions",
+  "top20": [
+    {
+      "rank": 1,
+      "Ticker": "MRNA",
+      "Date": "2026-08-28",
+      "Value": 137.99000549316406,
+      "r63": 1.9315913827876514,
+      "rs_percentile": 1.0,
+      "selected_top_decile": true
+    },
+    {
+      "rank": 2,
+      "Ticker": "DD",
+      "Date": "2026-08-28",
+      "Value": 136.97999572753906,
+      "r63": 1.847207375046246,
+      "rs_percentile": 0.9990842490842491,
+      "selected_top_decile": true
+    },
+    {
+      "rank": 3,
+      "Ticker": "OKTA",
+      "Date": "2026-08-28",
+      "Value": 166.22999572753906,
+      "r63": 1.2928275272764007,
+      "rs_percentile": 0.9981684981684982,
+      "selected_top_decile": true
+    },
+    {
+      "rank": 4,
+      "Ticker": "TEAM",
+      "Date": "2026-08-28",
+      "Value": 190.4149932861328,
+      "r63": 1.0411082797453357,
+      "rs_percentile": 0.9972527472527473,
+      "selected_top_decile": true
+    },
+    {
+      "rank": 5,
+      "Ticker": "ABCL",
+      "Date": "2026-08-28",
+      "Value": 11.350000381469727,
+      "r63": 0.9808028523017296,
+      "rs_percentile": 0.9963369963369964,
+      "selected_top_decile": true
+    },
+    {
+      "rank": 6,
+      "Ticker": "IOVA",
+      "Date": "2026-08-28",
+      "Value": 8.010000228881836,
+      "r63": 0.8627906682750495,
+      "rs_percentile": 0.9954212454212454,
+      "selected_top_decile": true
+    },
+    {
+      "rank": 7,
+      "Ticker": "CHYM",
+      "Date": "2026-08-28",
+      "Value": 33.20000076293945,
+      "r63": 0.8342541471396145,
+      "rs_percentile": 0.9945054945054945,
+      "selected_top_decile": true
+    },
+    {
+      "rank": 8,
+      "Ticker": "CRL",
+      "Date": "2026-08-28",
+      "Value": 291.5,
+      "r63": 0.8244406893162401,
+      "rs_percentile": 0.9935897435897436,
+      "selected_top_decile": true
+    },
+    {
+      "rank": 9,
+      "Ticker": "NWL",
+      "Date": "2026-08-28",
+      "Value": 6.170000076293945,
+      "r63": 0.762857164655413,
+      "rs_percentile": 0.9926739926739927,
+      "selected_top_decile": true
+    },
+    {
+      "rank": 10,
+      "Ticker": "DFTX",
+      "Date": "2026-08-28",
+      "Value": 40.97999954223633,
+      "r63": 0.745315176370452,
+      "rs_percentile": 0.9917582417582418,
+      "selected_top_decile": true
+    },
+    {
+      "rank": 11,
+      "Ticker": "NET",
+      "Date": "2026-08-28",
+      "Value": 299.8399963378906,
+      "r63": 0.7413322033021157,
+      "rs_percentile": 0.9908424908424909,
+      "selected_top_decile": true
+    },
+    {
+      "rank": 12,
+      "Ticker": "SN",
+      "Date": "2026-08-28",
+      "Value": 191.22999572753906,
+      "r63": 0.7069534750622379,
+      "rs_percentile": 0.98992673992674,
+      "selected_top_decile": true
+    },
+    {
+      "rank": 13,
+      "Ticker": "EAT",
+      "Date": "2026-08-28",
+      "Value": 230.19000244140625,
+      "r63": 0.6752055622343371,
+      "rs_percentile": 0.989010989010989,
+      "selected_top_decile": true
+    },
+    {
+      "rank": 14,
+      "Ticker": "CORT",
+      "Date": "2026-08-28",
+      "Value": 113.87999725341797,
+      "r63": 0.6653992662704544,
+      "rs_percentile": 0.9880952380952381,
+      "selected_top_decile": true
+    },
+    {
+      "rank": 15,
+      "Ticker": "AMC",
+      "Date": "2026-08-28",
+      "Value": 2.5899999141693115,
+      "r63": 0.6392404074814844,
+      "rs_percentile": 0.9871794871794872,
+      "selected_top_decile": true
+    },
+    {
+      "rank": 16,
+      "Ticker": "CCC",
+      "Date": "2026-08-28",
+      "Value": 7.489999771118164,
+      "r63": 0.6212121118292568,
+      "rs_percentile": 0.9862637362637363,
+      "selected_top_decile": true
+    },
+    {
+      "rank": 17,
+      "Ticker": "ILMN",
+      "Date": "2026-08-28",
+      "Value": 215.58999633789062,
+      "r63": 0.6033763615427241,
+      "rs_percentile": 0.9853479853479854,
+      "selected_top_decile": true
+    },
+    {
+      "rank": 18,
+      "Ticker": "WDAY",
+      "Date": "2026-08-28",
+      "Value": 204.72000122070312,
+      "r63": 0.5937719430479493,
+      "rs_percentile": 0.9844322344322345,
+      "selected_top_decile": true
+    },
+    {
+      "rank": 19,
+      "Ticker": "ZBRA",
+      "Date": "2026-08-28",
+      "Value": 356.45001220703125,
+      "r63": 0.5915788601597702,
+      "rs_percentile": 0.9835164835164835,
+      "selected_top_decile": true
+    },
+    {
+      "rank": 20,
+      "Ticker": "PATH",
+      "Date": "2026-08-28",
+      "Value": 18.149999618530273,
+      "r63": 0.567357490337665,
+      "rs_percentile": 0.9826007326007326,
+      "selected_top_decile": true
+    }
+  ]
+}
