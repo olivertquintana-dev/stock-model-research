@@ -1,0 +1,36 @@
+{
+  "model": "V6 Regime Filter & Defensive Overlay",
+  "regime_rule": "Risk-on when prior 6-month equal-weight benchmark return > 0; otherwise 0% cash proxy",
+  "cost_assumption": "10 bps x Top30 constituent turnover",
+  "results": [
+    {
+      "strategy": "Top30 baseline",
+      "annualized_return": 0.2798259689398055,
+      "annualized_volatility": 0.342801303670109,
+      "sharpe_zero_rf": 0.8162920208993513,
+      "max_drawdown": -0.3374040838033795,
+      "negative_months": 48,
+      "months": 123
+    },
+    {
+      "strategy": "Top30 regime overlay",
+      "annualized_return": 0.22761452807933313,
+      "annualized_volatility": 0.3181639624625999,
+      "sharpe_zero_rf": 0.7154000921964541,
+      "max_drawdown": -0.3419246867189538,
+      "negative_months": 37,
+      "months": 123
+    },
+    {
+      "strategy": "Benchmark",
+      "annualized_return": 0.21621746902185013,
+      "annualized_volatility": 0.19546528803095756,
+      "sharpe_zero_rf": 1.106168114041844,
+      "max_drawdown": -0.24077714563960317,
+      "negative_months": 38,
+      "months": 123
+    }
+  ],
+  "risk_on_months": 94,
+  "risk_off_months": 29
+}
