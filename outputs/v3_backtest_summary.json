@@ -1,0 +1,15 @@
+{
+  "model": "V3 Top20 RS63 Portfolio Backtest",
+  "period_start": "2016-04",
+  "period_end": "2026-06",
+  "months": 123,
+  "gross_annualized_return": 0.27293018386784595,
+  "net_annualized_return": 0.2643088255835002,
+  "benchmark_annualized_return": 0.21621746902185013,
+  "gross_annualized_volatility": 0.3855196336067286,
+  "net_annualized_volatility": 0.38544208338058134,
+  "average_monthly_turnover": 0.582377049180328,
+  "transaction_cost_assumption_per_turnover": 0.001,
+  "net_cumulative_return": 10.066110131637041,
+  "benchmark_cumulative_return": 6.436441741601513
+}
