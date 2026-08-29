@@ -31,11 +31,12 @@ jobs:
       - run: python scripts/run_v7.py
       - run: python scripts/run_v8.py
       - run: python scripts/run_v9.py
+      - run: python scripts/run_v10.py
       - name: Publish V1 ranking
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add outputs/v1_current_ranking.csv outputs/v1_current_ranking.json outputs/v2_current_ranking.csv outputs/v2_current_ranking.json outputs/v3_backtest_monthly.csv outputs/v3_backtest_summary.json outputs/v4_risk_metrics.csv outputs/v4_annual_returns.csv outputs/v4_risk_summary.json outputs/v5_portfolio_comparison.csv outputs/v5_summary.json outputs/v6_regime_comparison.csv outputs/v6_monthly.csv outputs/v6_summary.json outputs/v7_walkforward.csv outputs/v7_summary.json outputs/v8_universe_coverage.csv outputs/v8_ticker_coverage.csv outputs/v8_summary.json outputs/v9_final_decision.json
+          git add outputs/v1_current_ranking.csv outputs/v1_current_ranking.json outputs/v2_current_ranking.csv outputs/v2_current_ranking.json outputs/v3_backtest_monthly.csv outputs/v3_backtest_summary.json outputs/v4_risk_metrics.csv outputs/v4_annual_returns.csv outputs/v4_risk_summary.json outputs/v5_portfolio_comparison.csv outputs/v5_summary.json outputs/v6_regime_comparison.csv outputs/v6_monthly.csv outputs/v6_summary.json outputs/v7_walkforward.csv outputs/v7_summary.json outputs/v8_universe_coverage.csv outputs/v8_ticker_coverage.csv outputs/v8_summary.json outputs/v9_final_decision.json outputs/v10_validation_gate.json
           git diff --cached --quiet || git commit -m "Publish latest V1 ranking"
           git push
       - uses: actions/upload-artifact@v4
