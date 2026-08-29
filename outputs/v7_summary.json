@@ -1,0 +1,128 @@
+{
+  "model": "V7 Walk-Forward Robustness",
+  "periods": {
+    "train_2016_2019": [
+      "2016-01-01",
+      "2020-01-01"
+    ],
+    "test_2020_2022": [
+      "2020-01-01",
+      "2023-01-01"
+    ],
+    "holdout_2023_2026": [
+      "2023-01-01",
+      "2026-08-01"
+    ]
+  },
+  "cost_assumption": "10 bps x constituent turnover",
+  "results": [
+    {
+      "period": "train_2016_2019",
+      "portfolio_size": 20,
+      "annualized_return": 0.10298574193943111,
+      "annualized_volatility": 0.2739167605280718,
+      "sharpe_zero_rf": 0.3759745907511812,
+      "max_drawdown": -0.2717452281886906,
+      "months": 45
+    },
+    {
+      "period": "train_2016_2019",
+      "portfolio_size": 30,
+      "annualized_return": 0.13652965085506352,
+      "annualized_volatility": 0.233155235878302,
+      "sharpe_zero_rf": 0.5855740289972587,
+      "max_drawdown": -0.23330464505638526,
+      "months": 45
+    },
+    {
+      "period": "train_2016_2019",
+      "portfolio_size": 50,
+      "annualized_return": 0.12066019157352903,
+      "annualized_volatility": 0.18985636658405156,
+      "sharpe_zero_rf": 0.6355340816032703,
+      "max_drawdown": -0.23651340401102516,
+      "months": 45
+    },
+    {
+      "period": "train_2016_2019",
+      "portfolio_size": 100,
+      "annualized_return": 0.13551965140544242,
+      "annualized_volatility": 0.1518480322997219,
+      "sharpe_zero_rf": 0.8924689332684268,
+      "max_drawdown": -0.21689445063434798,
+      "months": 45
+    },
+    {
+      "period": "test_2020_2022",
+      "portfolio_size": 20,
+      "annualized_return": 0.45226302980556343,
+      "annualized_volatility": 0.38626666395291986,
+      "sharpe_zero_rf": 1.1708570063418353,
+      "max_drawdown": -0.3596002932063175,
+      "months": 36
+    },
+    {
+      "period": "test_2020_2022",
+      "portfolio_size": 30,
+      "annualized_return": 0.42344034715839673,
+      "annualized_volatility": 0.36087676163825566,
+      "sharpe_zero_rf": 1.1733655146874076,
+      "max_drawdown": -0.3374040838033796,
+      "months": 36
+    },
+    {
+      "period": "test_2020_2022",
+      "portfolio_size": 50,
+      "annualized_return": 0.36167898834233725,
+      "annualized_volatility": 0.321324585230331,
+      "sharpe_zero_rf": 1.1255876610968922,
+      "max_drawdown": -0.3065163179415462,
+      "months": 36
+    },
+    {
+      "period": "test_2020_2022",
+      "portfolio_size": 100,
+      "annualized_return": 0.3006599959170375,
+      "annualized_volatility": 0.2860364597144588,
+      "sharpe_zero_rf": 1.0511247280055729,
+      "max_drawdown": -0.28447236725785097,
+      "months": 36
+    },
+    {
+      "period": "holdout_2023_2026",
+      "portfolio_size": 20,
+      "annualized_return": 0.30004854531592096,
+      "annualized_volatility": 0.4792359090598294,
+      "sharpe_zero_rf": 0.6260977936827808,
+      "max_drawdown": -0.37992038568581654,
+      "months": 42
+    },
+    {
+      "period": "holdout_2023_2026",
+      "portfolio_size": 30,
+      "annualized_return": 0.327370232536109,
+      "annualized_volatility": 0.4204526034262515,
+      "sharpe_zero_rf": 0.7786138791111816,
+      "max_drawdown": -0.3178211106572242,
+      "months": 42
+    },
+    {
+      "period": "holdout_2023_2026",
+      "portfolio_size": 50,
+      "annualized_return": 0.2943523179677727,
+      "annualized_volatility": 0.36275311520544606,
+      "sharpe_zero_rf": 0.8114398074874302,
+      "max_drawdown": -0.26114146410439265,
+      "months": 42
+    },
+    {
+      "period": "holdout_2023_2026",
+      "portfolio_size": 100,
+      "annualized_return": 0.21578833530987307,
+      "annualized_volatility": 0.29228952675709524,
+      "sharpe_zero_rf": 0.7382691323360421,
+      "max_drawdown": -0.20259928054677812,
+      "months": 42
+    }
+  ]
+}
