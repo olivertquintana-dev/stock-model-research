@@ -1,0 +1,123 @@
+{
+  "model": "V4 Risk & Cost Analysis",
+  "average_monthly_turnover": 0.582377049180328,
+  "metrics": [
+    {
+      "series": "gross",
+      "annualized_return": 0.27293018386784595,
+      "annualized_volatility": 0.3855196336067286,
+      "sharpe_zero_rf": 0.7079540445565583,
+      "sortino_zero_rf": 1.2464669905396635,
+      "max_drawdown": -0.40570383088985196,
+      "worst_month": -0.2597092706011769,
+      "best_month": 0.4292360876704865,
+      "negative_months": 46,
+      "months": 123
+    },
+    {
+      "series": "net_10bps",
+      "annualized_return": 0.2643088255835002,
+      "annualized_volatility": 0.38544208338058134,
+      "sharpe_zero_rf": 0.6857290290290501,
+      "sortino_zero_rf": 1.1937709493683517,
+      "max_drawdown": -0.41891860197509534,
+      "worst_month": -0.2601092706011769,
+      "best_month": 0.4286360876704865,
+      "negative_months": 48,
+      "months": 123
+    },
+    {
+      "series": "net_30bps",
+      "annualized_return": 0.24722551321561248,
+      "annualized_volatility": 0.3852888936867621,
+      "sharpe_zero_rf": 0.6416627036662146,
+      "sortino_zero_rf": 1.1192296244792383,
+      "max_drawdown": -0.44449825747672755,
+      "worst_month": -0.26090927060117686,
+      "best_month": 0.42743608767048646,
+      "negative_months": 48,
+      "months": 123
+    },
+    {
+      "series": "net_50bps",
+      "annualized_return": 0.23035276633217383,
+      "annualized_volatility": 0.3851382541990066,
+      "sharpe_zero_rf": 0.5981040933242304,
+      "sortino_zero_rf": 1.0452732240573146,
+      "max_drawdown": -0.46898395583553343,
+      "worst_month": -0.2617092706011769,
+      "best_month": 0.4262360876704865,
+      "negative_months": 48,
+      "months": 123
+    },
+    {
+      "series": "benchmark",
+      "annualized_return": 0.21621746902185013,
+      "annualized_volatility": 0.19546528803095756,
+      "sharpe_zero_rf": 1.106168114041844,
+      "sortino_zero_rf": 1.714390360551874,
+      "max_drawdown": -0.24077714563960317,
+      "worst_month": -0.17752732497720958,
+      "best_month": 0.30468728211014,
+      "negative_months": 38,
+      "months": 123
+    }
+  ],
+  "annual_returns": [
+    {
+      "year": "2016",
+      "net_return": -0.18447153533685934,
+      "benchmark_return": 0.5890061012822407
+    },
+    {
+      "year": "2017",
+      "net_return": 0.40489523830111285,
+      "benchmark_return": 0.3290103088054954
+    },
+    {
+      "year": "2018",
+      "net_return": 0.21484211840377876,
+      "benchmark_return": -0.04231229111518786
+    },
+    {
+      "year": "2019",
+      "net_return": 0.03761015677696822,
+      "benchmark_return": 0.19518852234020678
+    },
+    {
+      "year": "2020",
+      "net_return": 2.6150958196659677,
+      "benchmark_return": 0.33669078642089834
+    },
+    {
+      "year": "2021",
+      "net_return": -0.027029656216259967,
+      "benchmark_return": 0.20588049061682878
+    },
+    {
+      "year": "2022",
+      "net_return": -0.12974469735239114,
+      "benchmark_return": 0.07517407320158753
+    },
+    {
+      "year": "2023",
+      "net_return": -0.16300005897064207,
+      "benchmark_return": 0.06576358060228915
+    },
+    {
+      "year": "2024",
+      "net_return": 1.5111246753795826,
+      "benchmark_return": 0.2684462393286393
+    },
+    {
+      "year": "2025",
+      "net_return": 0.2436258465072172,
+      "benchmark_return": 0.23080397640580785
+    },
+    {
+      "year": "2026",
+      "net_return": -0.04234665029610618,
+      "benchmark_return": 0.0668788359785022
+    }
+  ]
+}
