@@ -1,0 +1,62 @@
+{
+  "model": "V5 Portfolio Construction Comparison",
+  "cost_assumption": "10 bps x constituent turnover",
+  "portfolios": [
+    {
+      "portfolio_size": 10,
+      "annualized_return": 0.18916030539821027,
+      "annualized_volatility": 0.5125480913402375,
+      "sharpe_zero_rf": 0.3690586475575083,
+      "max_drawdown": -0.5787047937248746,
+      "average_monthly_turnover": 0.6122950819672133,
+      "negative_months": 55,
+      "months": 123
+    },
+    {
+      "portfolio_size": 20,
+      "annualized_return": 0.2643088255835002,
+      "annualized_volatility": 0.38544208338058134,
+      "sharpe_zero_rf": 0.6857290290290501,
+      "max_drawdown": -0.41891860197509534,
+      "average_monthly_turnover": 0.582377049180328,
+      "negative_months": 48,
+      "months": 123
+    },
+    {
+      "portfolio_size": 30,
+      "annualized_return": 0.2798259689398055,
+      "annualized_volatility": 0.342801303670109,
+      "sharpe_zero_rf": 0.8162920208993513,
+      "max_drawdown": -0.3374040838033795,
+      "average_monthly_turnover": 0.5647540983606558,
+      "negative_months": 48,
+      "months": 123
+    },
+    {
+      "portfolio_size": 50,
+      "annualized_return": 0.2460847463872351,
+      "annualized_volatility": 0.2961809529849622,
+      "sharpe_zero_rf": 0.8308594590811833,
+      "max_drawdown": -0.3065163179415463,
+      "average_monthly_turnover": 0.5409836065573772,
+      "negative_months": 49,
+      "months": 123
+    },
+    {
+      "portfolio_size": 100,
+      "annualized_return": 0.20929064296616384,
+      "annualized_volatility": 0.24677157083881773,
+      "sharpe_zero_rf": 0.8481148872001343,
+      "max_drawdown": -0.28447236725785097,
+      "average_monthly_turnover": 0.5048360655737705,
+      "negative_months": 47,
+      "months": 123
+    }
+  ],
+  "benchmark": {
+    "annualized_return": 0.21621746902185013,
+    "annualized_volatility": 0.19546528803095756,
+    "sharpe_zero_rf": 1.106168114041844,
+    "max_drawdown": -0.24077714563960317
+  }
+}
