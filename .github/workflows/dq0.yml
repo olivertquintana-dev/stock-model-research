@@ -1,0 +1,21 @@
+name: DQ-0 Data Quality
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/dq0.yml'
+      - 'scripts/run_dq0.py'
+jobs:
+  dq0:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install pandas pyarrow
+      - run: python scripts/run_dq0.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dq0-results
+          path: outputs/
