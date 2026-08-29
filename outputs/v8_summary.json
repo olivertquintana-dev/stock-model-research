@@ -1,0 +1,15 @@
+{
+  "model": "V8 Universe & Bias Audit",
+  "cohort": {
+    "total_tickers": 1233,
+    "tickers_present_at_latest": 1099,
+    "tickers_with_data_before_2017": 949,
+    "tickers_starting_after_2020": 201,
+    "date_start": "2016-01-04",
+    "date_end": "2026-08-28"
+  },
+  "monthly_ticker_min": 923,
+  "monthly_ticker_max": 1189,
+  "monthly_ticker_median": 1067.0,
+  "limitation": "This audit measures coverage and cohort changes but cannot eliminate survivorship bias because the source universe is not independently point-in-time reconstructed."
+}
