@@ -1,0 +1,14 @@
+{
+  "model": "V10 Independent Validation Gate",
+  "data_path": "data/point_in_time_universe.parquet",
+  "required_columns": [
+    "Date",
+    "Ticker",
+    "Value",
+    "UniverseDate",
+    "Liquidity"
+  ],
+  "status": "BLOCKED_MISSING_INDEPENDENT_DATA",
+  "capital_ready": false,
+  "message": "Provide an independently sourced point-in-time universe with liquidity data before V10 can run."
+}
