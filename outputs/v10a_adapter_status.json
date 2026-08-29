@@ -1,0 +1,6 @@
+{
+  "model": "V10-A PIT Data Adapter",
+  "source": "data/raw_point_in_time.parquet",
+  "canonical_output": "data/point_in_time_universe.parquet",
+  "status": "BLOCKED_NO_SOURCE"
+}
